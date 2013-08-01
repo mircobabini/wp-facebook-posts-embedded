@@ -5,8 +5,8 @@
                 title : 'Embed a Facebook Post',  
                 image : url+'/icon.png',  
 				onclick : function() {
-					var uri = prompt ("Facebook Post", "Enter the url of a Facebook post");
-					if (uri !== 'undefined') {
+					var uri = prompt ("Copy/Paste the URL of a Facebook post", "http://facebook.com/..");
+					if (uri !== 'undefined' && uri !== '') {
 						ed.selection.setContent('[fb_embed_post uri="'+uri+'"/]');  
 					}
 					

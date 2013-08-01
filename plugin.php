@@ -5,7 +5,7 @@
  * Description: Permits to add embedded posts from Facebook almost everywhere
  *
  * Plugin URI: 
- * Version: 1.0.0
+ * Version: 1.0.1
  *
  * Author: Mirco Babini
  * Author URI: http://github.com/mirkolofio
