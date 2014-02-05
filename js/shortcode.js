@@ -6,10 +6,10 @@
                 image : url+'/icon.png',  
 				onclick : function() {
 					var uri = prompt ("Copy/Paste the URL of a Facebook post", "http://facebook.com/..");
+					var size = prompt ("Specify width in px", "550");
 					if (uri !== 'undefined' && uri !== '') {
-						ed.selection.setContent('[fb_embed_post uri="'+uri+'"/]');  
+						ed.selection.setContent('[fb_embed_post href="'+uri+'/" width="'+size+'"]');  
 					}
-					
 					return false;
 				}
             });  
