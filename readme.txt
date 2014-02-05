@@ -49,6 +49,9 @@ Unfortunately Facebook does not allow this practice yet.
 1. Editor shortcode usage
 
 == Changelog ==
+= 1.0.3 =
+*	added the width support
+*	updated some var names in js for consistence
 = 1.0.2 =
 *	some reference updates
 = 1.0.1 =

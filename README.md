@@ -1,6 +1,5 @@
-# Facebook Posts Embedded
-Just use the shortcode [fb_embed_post uri="http://facebook.com/.."/] or use the facebook button placed in the page/post editor!
------------------------
+Facebook Posts Embedded
+===================================================
 
 ### Overview
 
