@@ -5,7 +5,7 @@
  * Description: Permits to add embedded posts from Facebook almost everywhere
  *
  * Plugin URI: 
- * Version: 1.0.1
+ * Version: 1.0.2
  *
  * Author: Mirco Babini
  * Author URI: http://github.com/mirkolofio
@@ -22,16 +22,16 @@ class fb_embed_posts {
 	
 	public function shortcode ($atts) {
 		extract( shortcode_atts( array(
-			 'uri' => false
+			 'href' => false
 		), $atts ) );
 
-		if (!$uri)
+		if (!$href)
 			return '';
 		
 		ob_start ();
 		?>
 		<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-		<fb:post href="<?=$uri?>"></fb:post>
+		<fb:post href="<?=$href?>"></fb:post>
 		<?
 		
 		$c = ob_get_contents (); ob_clean ();
