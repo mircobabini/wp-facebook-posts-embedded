@@ -1,5 +1,5 @@
 === Facebook Posts Embedded ===
-Contributors: Mirco Babini <mirkolofio@gmail.com>, SED Web Enhancement <it@sed-web.com>
+Contributors: mirkolofio <mirkolofio@gmail.com>, SED Web Enhancement <it@sed-web.com>
 Donate link: http://github.com/mirkolofio/
 Tags: facebook posts embedded, embedded facebook posts, embed link in facebook post, embed facebook post, facebook posts, fb
 Requires at least: 3.3
